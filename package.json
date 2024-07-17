@@ -1,0 +1,26 @@
+{
+  "name": "notinsitemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@apify/tsconfig": "^0.1.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "crawlee": "^3.11.0",
+    "playwright": "^1.45.2",
+    "sitemapper": "^3.2.9"
+  }
+}
